@@ -47,8 +47,7 @@
         <div class="col-xl-8">
           <h1>Nexar - Your Freight Partner</h1>
           <h2>On Time. On Task. On The Move.</h2>
-        <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
-        </div>
+          </div>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -61,19 +60,20 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Nexar Solutions is an International Freight Forwading company based in Wegberg, Germany. We specialize in global movenment of all types of cargo by air, sea, road and rail including clearing and forwarding aat all ports</p>
+          <p>Nexar Solutions is an International Freight Forwading company based in Wegberg, Germany. We specialize in global movenment of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports</p>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              <h4>Why choose us?</h4>
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Customised logistical servies
+
+              </li>
+              <li><i class="ri-check-double-line"></i> International coverage for your complete shippingrequirements</li>
+              <li><i class="ri-check-double-line"></i> Undertaking both light and full load haulage/li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -160,18 +160,18 @@
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-receipt"></i>
-              <h4>Est labore ad</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <h4>Our Mission</h4>
+              <p>Our mission is to provide a wide variety of logistics services for importer and exporters to facilitate the smooth, safe and efficient delivery of goods in any part of Africa, Asia and Europe.</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-cube-alt"></i>
-              <h4>Harum esse qui</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <h4>Vision</h4>
+              <p>To be the most trusted service provider aiming to deliver beyond expectation and no nurture long-term, mutually beneficial relationships with partners and clients.</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-images"></i>
-              <h4>Aut occaecati</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <h4>Aim</h4>
+              <p>Our aim is to provide a safe and efficient delivery of your cargo to any part of the country in Africa, Asia and Europe.</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-shield"></i>
