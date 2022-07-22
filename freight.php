@@ -78,11 +78,9 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              We are happy to advise you with out any obligations and create an individual offer. We communicate in 5 languages i.e. English,German, Portuguese, Shona and Ndebele.
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <a href="#" class="btn-learn-more">Request Quote</a>
           </div>
         </div>
 
@@ -95,13 +93,13 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>We specialize in global movement of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports. We calculate the most economical freight service that guarantees safe shipping during import and export.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="icon"><i class="bx bxs-plane"></i></div>
               <h4><a href="">Air Freight</a></h4>
               <p>International Air freight is the fastest way to ship your goods overseas. Our Air freight logistics planning and execution promises timely delivery of cargo, with daily and weekly departures to any air destination in the globe.</p>
             </div>
@@ -109,7 +107,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="icon"><i class="bx bxs-ship"></i></div>
               <h4><a href="">Sea Freight </a></h4>
               <p>Our sea freight service is an efficient and financially viable option for transporting heavy or large items overseas. We can help you transport excess baggage, earth moving equipment, mining equipment, heavy merchinary, transport vehicle just to mention a few.</p>
             </div>
@@ -117,7 +115,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <div class="icon"><i class="bx bxs-truck"></i></div>
               <h4><a href="">Road Freight</a></h4>
               <p>We work with large multinational haulage companies that operate daily across Europe and beyond as well as smaller intimate companies for more specialized or dedicated servicess. This enables us to provide the right service for your consignment./p>
             </div>
@@ -133,7 +131,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <div class="icon"><i class="bx bx-car"></i></div>
               <h4><a href="">International Car Shipping & RORO services</a></h4>
               <p>When transporting a vehicle, there are three different shipping alternatives i.e RoRo, LoLo or by container. We can help you transport small to large vehicles, boats/yatchs on trailers or cradles, plant assemblies whether self propelled, on wheels or towable to uor clients dstination of choice with extreme precision.</p>
             </div>
@@ -173,11 +171,7 @@
               <h4>Aim</h4>
               <p>Our aim is to provide a safe and efficient delivery of your cargo to any part of the country in Africa, Asia and Europe.</p>
             </div>
-            <div class="icon-box mt-5">
-              <i class="bx bx-shield"></i>
-              <h4>Beatae veritatis</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-            </div>
+
           </div>
           <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'></div>
         </div>
@@ -193,31 +187,7 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
               <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -229,13 +199,37 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
             </div>
           </div>
 
