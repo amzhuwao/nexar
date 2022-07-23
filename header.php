@@ -12,7 +12,7 @@
               <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="freight.php">Freight</a></li>
-                  <li><a href="tour.php">World Travel</a></li>
+                  <li><a href="wtour.php">World Travel</a></li>
                   <li><a href="#">Consultation</a></li>
                   <li><a href="#">Drop Down 3</a></li>
                   <li><a href="#">Drop Down 4</a></li>
