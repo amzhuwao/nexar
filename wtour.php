@@ -41,12 +41,12 @@
 <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
+  <section id="hero" class="d-flex flex-column justify-content-center" style="background: url(assets/img/tourBG.png);">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h1>Nexar - Your Freight Partner</h1>
-          <h2>On Time. On Task. On The Move.</h2>
+          <h1>Euro World Tour</h1>
+          <h2>Germany | France | Belgium | Netherlands | Switzerlands | Spain</h2>
           </div>
       </div>
     </div>
@@ -60,7 +60,7 @@
 
         <div class="section-title">
           <h2>About Us</h2>
-          <p>Nexar Solutions is an International Freight Forwading company based in Wegberg, Germany. We specialize in global movenment of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports</p>
+          <p>Nexar Solutions is your number one service provider for touring Europe. We organize and facilitate group tours of various European countries for holidays and business expos. It is an eye opener to promote investment opportunities in Africa and develop commercial exchange through Business and Investmant facilitation between Europe and Africa </p>
         </div>
 
         <div class="row content">
@@ -69,11 +69,9 @@
               <h4>Why choose us?</h4>
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Customised logistical servies
-
-              </li>
+              <li><i class="ri-check-double-line"></i> Customised logistical servies</li>
               <li><i class="ri-check-double-line"></i> International coverage for your complete shippingrequirements</li>
-              <li><i class="ri-check-double-line"></i> Undertaking both light and full load haulage/li>
+              <li><i class="ri-check-double-line"></i> Undertaking both light and full load haulage</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -87,64 +85,64 @@
       </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Activities Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>We specialize in global movement of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports. We calculate the most economical freight service that guarantees safe shipping during import and export.</p>
+          <h2>Activities</h2>
+       <!--   <p>We specialize in global movement of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports. We calculate the most economical freight service that guarantees safe shipping during import and export.</p> -->
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxs-plane"></i></div>
-              <h4><a href="">Air Freight</a></h4>
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4>Touring Across Europe</h4>
               <p>International Air freight is the fastest way to ship your goods overseas. Our Air freight logistics planning and execution promises timely delivery of cargo, with daily and weekly departures to any air destination in the globe.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxs-ship"></i></div>
-              <h4><a href="">Sea Freight </a></h4>
+              <div class="icon"><i class="bx bx-buildings"></i></div>
+              <h4>Visiting Companies </h4>
               <p>Our sea freight service is an efficient and financially viable option for transporting heavy or large items overseas. We can help you transport excess baggage, earth moving equipment, mining equipment, heavy merchinary, transport vehicle just to mention a few.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxs-truck"></i></div>
-              <h4><a href="">Road Freight</a></h4>
+              <div class="icon"><i class="bx bxs-ship"></i></div>
+              <h4>Ship Cruising</h4>
               <p>We work with large multinational haulage companies that operate daily across Europe and beyond as well as smaller intimate companies for more specialized or dedicated servicess. This enables us to provide the right service for your consignment./p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Customes Clearance</a></h4>
+              <div class="icon"><i class="bx bxs-briefcase-alt-2"></i></div>
+              <h4>Business Seminar </h4>
               <p>Our skilled staff aremore than happy to discuss and provide guidance on customs tariff classifications, potential duties and taxes involved, and tariff concessions. We work with partners at all entry ports of our African destinations which enables us to offer our customers an all inclusive service that includes port and customs clearance.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-car"></i></div>
-              <h4><a href="">International Car Shipping & RORO services</a></h4>
+              <div class="icon"><i class="bx bxs-shopping-bag"></i></div>
+              <h4>Shopping & Spa Time</h4>
               <p>When transporting a vehicle, there are three different shipping alternatives i.e RoRo, LoLo or by container. We can help you transport small to large vehicles, boats/yatchs on trailers or cradles, plant assemblies whether self propelled, on wheels or towable to uor clients dstination of choice with extreme precision.</p>
             </div>
           </div>
 
-          <!--<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Other Service3</a></h4>
+              <div class="icon"><i class="bx bx-run"></i></div>
+              <h4>Sports and Festives</h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
-          -->
+          
         </div>
 
       </div>
@@ -247,7 +245,7 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
-              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <h3>What We Cater For</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
               </p>
@@ -256,48 +254,46 @@
             <div class="accordion-list">
               <ul>
                 <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">Which shipping ports do you service? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">Visa Application <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      <ol>
-                        <li>Durban - South Africa</li>
-                        <li>Walivs Bay - Namibia</li>
-                        <li>Beira - Mozambique</li>
-                        <li>Dar es Salaam - Tanzania</li>
-                        <li>Lagos - Nigeria</li>
-                        <li>Abidjan - Ivory Coast</li>
-                      </ol>
+                      jhbjhh
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">What are the requirements for vehicle clearance? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">Local & International Flights<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      <ol>
-                        <li>Original Bill of Landing</li>
-                        <li>Original Vehicle Registration</li>
-                        <li>Purchase Invoice</li>
-                        <li>Shipping Invoice</li>
-                        <li>Completed Power of Attorney form</li>
-                      </ol>
+                      nkjnjk
                     </p>
                   </div>
                 </li>
 
                 <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Which Customes Clearance Services do we offer <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Hotels and Lodging<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      <ol>
-                        <li>Customes Formalities and Procedures advice</li>
-                        <li>Customes tax Exemptions</li>
-                        <li>Customes Declaration and Clearance</li>
-                        <li>Customes Duty Charges, Claims and Refunds</li>
-                        <li>Customes Clearance Documentation/li>
-                        <li>Border Customes Clearance and Facilitation/li>
-                      </ol>
+                      nlinlj
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Food & Refreshments<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      klkmml
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Spa day(s)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                     jjnknkl
                     </p>
                   </div>
                 </li>
