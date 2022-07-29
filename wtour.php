@@ -41,7 +41,7 @@
 <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center" style="background: url(assets/img/tourBG.png);">
+  <section id="hero" class="d-flex flex-column justify-content-center" style="background: url(assets/img/tourBG.png) top center;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
@@ -69,9 +69,9 @@
               <h4>Why choose us?</h4>
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Customised logistical servies</li>
-              <li><i class="ri-check-double-line"></i> International coverage for your complete shippingrequirements</li>
-              <li><i class="ri-check-double-line"></i> We cater for both Business and Personal tours</li>
+              <li><i class="ri-check-double-line"></i> <strong>Quality and Service</strong> <p>To help achieve the core values, we closely monitor client satisfaction and are consistantly seeking new ways to exceed our clients' expectations.</p></li>
+              <li><i class="ri-check-double-line"></i> Quality and Value <p>We take great care to ensure that our products are the best value for money in the business, and we know that outstanding value means ensuring all things are right, not just the price.</p></li>
+              <li><i class="ri-check-double-line"></i> Tailor-made Holidays <p>Designed with you in mind , our packages can be tailored or built from scratch to suit your needs. Our experienced travel experts have the resources at hand to make your dreram holiday a reality.</p></li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -91,7 +91,7 @@
 
         <div class="section-title">
           <h2>Activities</h2>
-       <!--   <p>We specialize in global movement of all types of cargo by air, sea, road and rail including clearing and forwarding at all ports. We calculate the most economical freight service that guarantees safe shipping during import and export.</p> -->
+         <p>At Nexar, we look into each trip with meticulous preparation, planning and craft them into your dream vacation.</p>
         </div>
 
         <div class="row">
@@ -171,7 +171,7 @@
             </div>
 
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/wfeatures.jpg");'></div>
         </div>
 
       </div>
