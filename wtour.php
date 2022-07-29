@@ -70,7 +70,7 @@
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> <strong>Quality and Service</strong> <p>To help achieve the core values, we closely monitor client satisfaction and are consistantly seeking new ways to exceed our clients' expectations.</p></li>
-              <li><i class="ri-check-double-line"></i> Quality and Value <p>We take great care to ensure that our products are the best value for money in the business, and we know that outstanding value means ensuring all things are right, not just the price.</p></li>
+              <li><i class="ri-check-double-line"></i> <strong>Quality and Value <p>We take great care to ensure that our products are the best value for money in the business, and we know that outstanding value means ensuring all things are right, not just the price.</p></li>
               <li><i class="ri-check-double-line"></i> Tailor-made Holidays <p>Designed with you in mind , our packages can be tailored or built from scratch to suit your needs. Our experienced travel experts have the resources at hand to make your dreram holiday a reality.</p></li>
             </ul>
           </div>
@@ -157,12 +157,12 @@
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-receipt"></i>
               <h4>Our Mission</h4>
-              <p>Our mission is to provide a wide variety of logistics services for importer and exporters to facilitate the smooth, safe and efficient delivery of goods in any part of Africa, Asia and Europe.</p>
+              <p>Our mission is to become the leading specialized travel company by planning customized vacations that create  exceptional value for our customers.</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-cube-alt"></i>
               <h4>Vision</h4>
-              <p>To be the most trusted service provider aiming to deliver beyond expectation and no nurture long-term, mutually beneficial relationships with partners and clients.</p>
+              <p>To become the leading travel in Europe, providing specialized vacatons to meet any clientele need.</p>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-images"></i>
