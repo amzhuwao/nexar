@@ -99,7 +99,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4>Touring Across Europe</h4>
-              <p>International Air freight is the fastest way to ship your goods overseas. Our Air freight logistics planning and execution promises timely delivery of cargo, with daily and weekly departures to any air destination in the globe.</p>
+              <p>We offer tours to single destinations or cross-country tours throught various countries in Europe such as Germany France, Belgium and the likes. You can choose to travels as individuals, familes, coporates or in a group of fellow tourist.</p>
             </div>
           </div>
 
@@ -107,7 +107,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-buildings"></i></div>
               <h4>Visiting Companies </h4>
-              <p>Our sea freight service is an efficient and financially viable option for transporting heavy or large items overseas. We can help you transport excess baggage, earth moving equipment, mining equipment, heavy merchinary, transport vehicle just to mention a few.</p>
+              <p>Apart from visiting and seeing popular land marks, we can facilitates tours of select companies and even meeting the various stakeholders.</p>
             </div>
           </div>
 
@@ -115,7 +115,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-ship"></i></div>
               <h4>Ship Cruising</h4>
-              <p>We work with large multinational haulage companies that operate daily across Europe and beyond as well as smaller intimate companies for more specialized or dedicated servicess. This enables us to provide the right service for your consignment./p>
+              <p>Rather than just travelling by air, for some routes we actually travel by cruise ship to make the most out of your touring and travelling experience.</p>
             </div>
           </div>
 
@@ -123,7 +123,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-briefcase-alt-2"></i></div>
               <h4>Business Seminar </h4>
-              <p>Our skilled staff aremore than happy to discuss and provide guidance on customs tariff classifications, potential duties and taxes involved, and tariff concessions. We work with partners at all entry ports of our African destinations which enables us to offer our customers an all inclusive service that includes port and customs clearance.</p>
+              <p>Our services do not just end at simple site-seeing, we also facilitate for coporates to engadge in business seminars which can be private or open for tourists to participate.</p>
             </div>
           </div>
 
@@ -131,7 +131,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-shopping-bag"></i></div>
               <h4>Shopping & Spa Time</h4>
-              <p>When transporting a vehicle, there are three different shipping alternatives i.e RoRo, LoLo or by container. We can help you transport small to large vehicles, boats/yatchs on trailers or cradles, plant assemblies whether self propelled, on wheels or towable to uor clients dstination of choice with extreme precision.</p>
+              <p>To help you relax and enjoy you time abroad, we have time for visiting different shopping areas where you can buy various item and even take a spa day to relax your body and get back that much needed energy.</p>
             </div>
           </div>
 
@@ -139,7 +139,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-run"></i></div>
               <h4>Sports and Festives</h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <p>Our tours are strategically organized around various festive events through different countries which gives one the opportunity to get a feel of the different cultures and societies.</p>
             </div>
           </div>
           

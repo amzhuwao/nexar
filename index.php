@@ -46,7 +46,7 @@
       <div class="row justify-content-center">
         <div class="col-xl-8">
           <h1>Nexar - All Your Solutions Under One Roof</h1>
-          <h2>Freight | Consultation | Other1 | Other 2</h2>
+          <h2>Freight | Tourism | Consultation | Other 2</h2>
         <!--  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
         </div>
       </div>
