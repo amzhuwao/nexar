@@ -71,12 +71,12 @@
             <ul>
               <li><i class="ri-check-double-line"></i> Customised logistical servies</li>
               <li><i class="ri-check-double-line"></i> International coverage for your complete shippingrequirements</li>
-              <li><i class="ri-check-double-line"></i> Undertaking both light and full load haulage</li>
+              <li><i class="ri-check-double-line"></i> We cater for both Business and Personal tours</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              We are happy to advise you with out any obligations and create an individual offer. We communicate in 5 languages i.e. English,German, Portuguese, Shona and Ndebele.
+              We are happy to advise you with out any obligations and create a personalized package. We communicate in 5 languages i.e. English,German, Portuguese, Shona and Ndebele.
             </p>
             <a href="#" class="btn-learn-more">Request Quote</a>
           </div>
@@ -246,9 +246,9 @@
 
             <div class="content">
               <h3>What We Cater For</h3>
-              <p>
+              <!--<p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
+              </p>-->
             </div>
 
             <div class="accordion-list">
@@ -257,7 +257,7 @@
                   <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1">Visa Application <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                     <p>
-                      jhbjhh
+                      We assit with your Visa application process and all the necessary documents and support letters as may be required.
                     </p>
                   </div>
                 </li>
@@ -266,7 +266,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">Local & International Flights<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      nkjnjk
+                      Our fees cover you for both the International and Local flights from and back to your country of origin.
                     </p>
                   </div>
                 </li>
@@ -275,7 +275,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Hotels and Lodging<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      nlinlj
+                      You do not need to worry yourself with where you will be staying and how to get logging as we have that covered for you.
                     </p>
                   </div>
                 </li>
@@ -284,7 +284,7 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Food & Refreshments<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                      klkmml
+                      During and in-between your travels we provide a standard three course meal plan and accompanying refreshments.
                     </p>
                   </div>
                 </li>
@@ -293,14 +293,12 @@
                   <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">Spa day(s)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                   <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                     <p>
-                     jjnknkl
+                     To help you relax and enjoy you time abroad, we have time for visiting a spa to relax your body and get back that much needed energy.
                     </p>
                   </div>
                 </li>
-
               </ul>
             </div>
-
           </div>
 
           <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/faq.jpg");'>&nbsp;</div>
