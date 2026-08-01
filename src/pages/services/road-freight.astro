@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+---
+
+<BaseLayout
+  title="Road Freight"
+  description="European road freight and specialised haulage with reliable partners across the network."
+  image="/images/road.jpg"
+>
+  <Hero
+    compact
+    brand="ROAD"
+    headline="Ground transport that reaches remote places."
+    support="Daily European services and dedicated options for specialised consignments."
+    image="/images/road.jpg"
+    secondaryCta={{ label: 'Get a Quote', href: '/quote' }}
+  />
+
+  <section class="section">
+    <div class="container content reveal">
+      <p>
+        Nexar Solutions works with large multinational haulage companies that operate daily services
+        across Europe and beyond, as well as smaller specialists for dedicated services. This lets us
+        provide the right service for your consignment.
+      </p>
+      <p>
+        We stay focused on reliable, custom-designed support — using ground transportation to reach even
+        the most remote places when needed.
+      </p>
+
+      <h2>Germany ↔ UK road freight</h2>
+      <p>
+        Post-Brexit, shipping between the UK and Germany requires careful documentation. An Economic
+        Operators Registration and Identification (EORI) number is needed for both the UK and Germany,
+        alongside other customs documents.
+      </p>
+      <p>
+        Through an extended depot network, vans can pick up shipments quickly and get goods on their
+        way. Our road freight services emphasise safety — combining best industry practices with
+        experienced drivers on both sides.
+      </p>
+      <p>
+        Options accommodate unique requests: UK and EU pallets, oddly shaped products, light or heavy
+        loads — all at competitive prices.
+      </p>
+
+      <a class="btn btn-primary" href="/quote">Request a road freight quote</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.55rem;
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+</style>

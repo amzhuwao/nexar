@@ -1,0 +1,127 @@
+---
+import { company, nav, services } from '../content/site';
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">NEXAR</p>
+      <p class="footer-copy">{company.tagline}</p>
+      <p>
+        {company.address.street}<br />
+        {company.address.city}<br />
+        {company.address.country}
+      </p>
+    </div>
+
+    <div>
+      <h2>Explore</h2>
+      <ul>
+        {nav.filter((item) => !item.children).map((item) => (
+          <li><a href={item.href}>{item.label}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h2>Services</h2>
+      <ul>
+        {services.map((service) => (
+          <li><a href={service.href}>{service.title}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h2>Contact</h2>
+      <ul>
+        <li><a href={company.phone.mobileHref}>{company.phone.mobile}</a></li>
+        <li><a href={company.phone.telHref}>{company.phone.tel}</a></li>
+        <li><a href={company.emailHref}>{company.email}</a></li>
+      </ul>
+      <div class="social">
+        <a href={company.social.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href={company.social.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© {new Date().getFullYear()} {company.fullName}. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background:
+      linear-gradient(160deg, #151c27 0%, #1d2734 55%, #10161f 100%);
+    color: rgba(255, 255, 255, 0.86);
+    padding: 4rem 0 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  }
+
+  .footer-brand {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: var(--brand);
+    margin: 0 0 0.75rem;
+  }
+
+  .footer-copy {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 28ch;
+  }
+
+  h2 {
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  a:hover {
+    color: var(--brand);
+  }
+
+  .social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  @media (max-width: 900px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

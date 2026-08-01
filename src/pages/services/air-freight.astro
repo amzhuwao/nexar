@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+---
+
+<BaseLayout
+  title="Air Freight"
+  description="International air freight for urgent, valuable, and fragile cargo with worldwide departures."
+  image="/images/air.jpg"
+>
+  <Hero
+    compact
+    brand="AIR"
+    headline="When every hour counts, fly the freight."
+    support="Daily and weekly departures to air destinations worldwide for time-sensitive consignments."
+    image="/images/air.jpg"
+    secondaryCta={{ label: 'Get a Quote', href: '/quote' }}
+  />
+
+  <section class="section">
+    <div class="container content reveal">
+      <p>
+        International air freight is the fastest way to ship goods overseas — typically for urgent and
+        time-sensitive consignments. Our air freight logistics planning and execution promise timely
+        delivery, with daily and weekly departures to destinations across the globe.
+      </p>
+      <p>
+        Nexar Solutions arranges comprehensive services for urgent, valuable, fragile, or any cargo
+        that needs accelerated air delivery. When the clock is against you, you can count on our strong
+        relationships with leading airlines and shipping lines.
+      </p>
+      <p>
+        We can transport consignments to any part of the world safely. Pickup facilities are available
+        worldwide, and we also provide export packing services for your convenience.
+      </p>
+
+      <h2>What we arrange</h2>
+      <ul>
+        <li>Door-to-door service for cleared or uncleared goods</li>
+        <li>Direct services with IATA airlines</li>
+        <li>Consular documentation and certificates of origin</li>
+        <li>Commercial services and marine insurance support</li>
+        <li>Presentation of letters of credit</li>
+      </ul>
+
+      <h2>Why shippers choose air</h2>
+      <p>
+        <strong>Speed.</strong> Air is the fastest method for perishable, fragile, or high-value
+        merchandise. While sea freight often takes three to six weeks, air shipments typically arrive
+        in three days to one week.
+      </p>
+      <p>
+        <strong>Accessibility.</strong> We can send goods almost anywhere in Africa, Asia, and Europe —
+        including destinations where air is the only practical option.
+      </p>
+
+      <a class="btn btn-primary" href="/quote">Request an air freight quote</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.55rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    color: var(--muted);
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+</style>

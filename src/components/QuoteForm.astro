@@ -1,0 +1,81 @@
+---
+import { company, quoteGoodsTypes } from '../content/site';
+
+const success = Astro.url.searchParams.get('sent') === '1';
+---
+
+{
+  success && (
+    <div class="success-banner" role="status">
+      Thank you — your quote request has been received. Our team will respond with competitive rates.
+    </div>
+  )
+}
+
+<form class="form-grid" action={company.formEndpoint} method="POST">
+  <input type="hidden" name="_subject" value="Freight quote request" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value={new URL('/quote?sent=1', Astro.site).toString()} />
+  <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+  <div class="form-grid two">
+    <div class="field">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required autocomplete="name" />
+    </div>
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required autocomplete="email" />
+    </div>
+  </div>
+
+  <div class="form-grid two">
+    <div class="field">
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" autocomplete="tel" />
+    </div>
+    <div class="field">
+      <label for="goods">Type of goods</label>
+      <select id="goods" name="goods_type" required>
+        <option value="" disabled selected>Select goods type</option>
+        {quoteGoodsTypes.map((type) => <option value={type}>{type}</option>)}
+      </select>
+    </div>
+  </div>
+
+  <div class="form-grid two">
+    <div class="field">
+      <label for="origin">Origin</label>
+      <input id="origin" name="origin" type="text" required placeholder="City / country" />
+    </div>
+    <div class="field">
+      <label for="destination">Destination</label>
+      <input id="destination" name="destination" type="text" required placeholder="City / country" />
+    </div>
+  </div>
+
+  <div class="form-grid two">
+    <div class="field">
+      <label for="weight">Approx. weight / volume</label>
+      <input id="weight" name="weight_volume" type="text" placeholder="e.g. 2 pallets / 1200 kg" />
+    </div>
+    <div class="field">
+      <label for="mode">Preferred mode</label>
+      <select id="mode" name="preferred_mode">
+        <option value="No preference">No preference</option>
+        <option value="Air">Air</option>
+        <option value="Sea">Sea</option>
+        <option value="Road">Road</option>
+        <option value="RORO / Vehicle">RORO / Vehicle</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="details">Shipment details</label>
+    <textarea id="details" name="details" required placeholder="Cargo description, timing, special requirements"></textarea>
+  </div>
+
+  <p class="form-note">Our shipping experts will reply with competitive rates to {company.email}.</p>
+  <button class="btn btn-primary" type="submit">Request quote</button>
+</form>

@@ -1,0 +1,132 @@
+---
+interface Props {
+  brand?: string;
+  headline: string;
+  support: string;
+  primaryCta?: { label: string; href: string };
+  secondaryCta?: { label: string; href: string };
+  image?: string;
+  compact?: boolean;
+}
+
+const {
+  brand = 'NEXAR',
+  headline,
+  support,
+  primaryCta = { label: 'Get a Quote', href: '/quote' },
+  secondaryCta = { label: 'Our Services', href: '/#services' },
+  image = '/images/hero.jpg',
+  compact = false,
+} = Astro.props;
+---
+
+<section class:list={['hero', compact && 'hero-compact']} style={`--hero-image: url('${image}')`}>
+  <div class="hero-media" aria-hidden="true"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <p class="hero-brand">{brand}</p>
+    <h1 class="hero-copy">{headline}</h1>
+    <p class="hero-support">{support}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href={primaryCta.href}>{primaryCta.label}</a>
+      {secondaryCta && (
+        <a class="btn btn-ghost" href={secondaryCta.href}>{secondaryCta.label}</a>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: calc(100svh - var(--header-h));
+    display: grid;
+    align-items: end;
+    color: var(--white);
+    overflow: hidden;
+  }
+
+  .hero-compact {
+    min-height: clamp(22rem, 48vh, 30rem);
+  }
+
+  .hero-media {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(120deg, rgba(16, 22, 31, 0.2), transparent 40%),
+      var(--hero-image) center / cover no-repeat;
+    transform: scale(1.04);
+    animation: heroZoom 12s var(--ease) both;
+  }
+
+  .hero-shade {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(16, 22, 31, 0.35) 0%, rgba(16, 22, 31, 0.72) 55%, rgba(16, 22, 31, 0.9) 100%),
+      radial-gradient(800px 400px at 15% 80%, rgba(245, 130, 32, 0.28), transparent 60%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding-block: clamp(3rem, 8vh, 5.5rem);
+    max-width: 44rem;
+  }
+
+  .hero-brand {
+    font-family: var(--font-display);
+    font-size: clamp(3.2rem, 10vw, 6.5rem);
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 0.92;
+    margin: 0 0 0.9rem;
+    color: var(--brand);
+    text-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+    animation: riseIn 0.9s var(--ease) both;
+  }
+
+  .hero-copy {
+    font-size: clamp(1.55rem, 3.4vw, 2.35rem);
+    font-weight: 700;
+    max-width: 18ch;
+    margin: 0 0 0.85rem;
+    animation: riseIn 0.9s var(--ease) 0.12s both;
+  }
+
+  .hero-support {
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 38ch;
+    margin: 0 0 1.6rem;
+    animation: riseIn 0.9s var(--ease) 0.22s both;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    animation: riseIn 0.9s var(--ease) 0.32s both;
+  }
+
+  @keyframes riseIn {
+    from {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes heroZoom {
+    from {
+      transform: scale(1.08);
+    }
+    to {
+      transform: scale(1.02);
+    }
+  }
+</style>

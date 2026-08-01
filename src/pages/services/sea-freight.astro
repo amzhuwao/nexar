@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+---
+
+<BaseLayout
+  title="Sea Freight"
+  description="Ocean freight for businesses and private customers across Africa, Asia, and Europe."
+  image="/images/sea.jpg"
+>
+  <Hero
+    compact
+    brand="SEA"
+    headline="Efficient ocean shipping for heavy and large cargo."
+    support="Port-to-port or door-to-door moves — including equipment, vehicles, and household goods."
+    image="/images/sea.jpg"
+    secondaryCta={{ label: 'Get a Quote', href: '/quote' }}
+  />
+
+  <section class="section">
+    <div class="container content reveal">
+      <p>
+        Nexar Shipping Solutions offers freight services for business and private customers to a wide
+        range of countries throughout Africa, Asia, and Europe at affordable prices. We ship equipment,
+        food supplies, pharmaceuticals, chemicals, aid and relief, household effects, clothes, cars, and
+        other consumables and durable goods.
+      </p>
+      <p>
+        We specialise in organising transport from around the world to retail and wholesale markets in
+        Africa, Asia, and Europe — port-to-port or door-to-door, even to remote areas.
+      </p>
+      <p>
+        We can help transport excess baggage, earth-moving equipment, generators, mining equipment,
+        heavy machinery, transport vehicles, boats and yachts on trailers or cradles, cranes, and plant
+        assemblies — whether self-propelled, on wheels, or towable — with precision. Sea freight is an
+        efficient and financially viable option for heavy packages or large items overseas.
+      </p>
+
+      <h2>Ideal for</h2>
+      <ul>
+        <li>Containerised commercial cargo</li>
+        <li>Out-of-gauge and project cargo</li>
+        <li>Vehicles and machinery</li>
+        <li>Household and personal effects</li>
+      </ul>
+
+      <a class="btn btn-primary" href="/quote">Request a sea freight quote</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.55rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    color: var(--muted);
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+</style>

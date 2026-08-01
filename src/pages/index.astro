@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ServiceTeaser from '../components/ServiceTeaser.astro';
+import { company, whyUs } from '../content/site';
+---
+
+<BaseLayout
+  title={`${company.fullName} · International Freight Forwarding`}
+  description="International freight forwarding from Wegberg, Germany — air, sea, road, customs clearance, and vehicle RORO across Africa, Asia, and Europe."
+>
+  <Hero
+    headline="Freight that arrives with clarity and care."
+    support="Port-to-port or door-to-door shipping for business and private customers across Africa, Asia, and Europe."
+  />
+
+  <ServiceTeaser />
+
+  <section class="section why">
+    <div class="container why-grid">
+      <div class="reveal">
+        <p class="section-label">Why Nexar</p>
+        <h2 class="section-title">A reliable partner for every shipment</h2>
+        <p class="section-lead">
+          We calculate economical routes, manage clearing and forwarding, and keep you informed —
+          with support in five languages and coverage from remote destinations to major hubs.
+        </p>
+        <a class="btn btn-dark" href="/about">About Nexar</a>
+      </div>
+      <ul class="why-list reveal">
+        {whyUs.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section cta">
+    <div class="container cta-panel reveal">
+      <div>
+        <p class="section-label">Get started</p>
+        <h2 class="section-title">Need a competitive freight quote?</h2>
+        <p class="section-lead">
+          Tell us what you are shipping and where it needs to go. Our team will present tailored rates
+          and a clear plan.
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="/quote">Get a Quote</a>
+        <a class="btn btn-ghost dark" href="/contact">Contact us</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .why-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .why-list li {
+    position: relative;
+    padding: 1rem 1rem 1rem 2.5rem;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid var(--line);
+  }
+
+  .why-list li::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 1.35rem;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: var(--brand);
+  }
+
+  .cta-panel {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: end;
+    padding: 2.5rem;
+    background:
+      linear-gradient(135deg, #171e29 0%, #243042 60%, #1a2230 100%);
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .cta-panel .section-lead {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .cta-panel .section-label {
+    color: var(--brand);
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .btn-ghost.dark {
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+
+  @media (max-width: 860px) {
+    .why-grid,
+    .cta-panel {
+      grid-template-columns: 1fr;
+      display: grid;
+    }
+  }
+</style>
