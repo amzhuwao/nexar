@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { company, whyUs } from '../content/site';
+---
+
+<BaseLayout
+  title="About Us"
+  description="Learn about Nexar Shipping Solutions — an international freight forwarder based in Wegberg, Germany."
+  image="/images/about.jpg"
+>
+  <Hero
+    compact
+    headline="Built for smooth global movement of cargo."
+    support="Registered in Germany. Connected across continents. Focused on safe, efficient delivery."
+    image="/images/about.jpg"
+    secondaryCta={{ label: 'Contact us', href: '/contact' }}
+  />
+
+  <section class="section">
+    <div class="container prose reveal">
+      <p class="section-label">About Nexar Solutions</p>
+      <h2 class="section-title">International freight forwarding from Wegberg</h2>
+      <p>
+        {company.description} We operate as a holding company with subsidiaries in cargo shipping and
+        logistics solutions, business consultancy, property management, and moving &amp; transport.
+      </p>
+      <p>
+        We take care of every order with utmost care. We specialise in the global movement of all types
+        of cargo by air, sea, road, and rail — including clearing and forwarding at ports. We calculate
+        the most economical freight service that guarantees safe shipping during import and export.
+      </p>
+      <p>
+        We specialise in the import and export of vehicles and are a fully licensed customs clearing
+        agent with the expertise to clear shipments at major international airports and seaports.
+      </p>
+      <p>
+        Call, email, or visit us by appointment in Wegberg. We are happy to advise without obligation
+        and create an individual offer. We communicate in five languages:
+        {company.languages.join(', ')}.
+      </p>
+    </div>
+  </section>
+
+  <section class="section mission">
+    <div class="container mission-grid">
+      <article class="reveal">
+        <p class="section-label">Mission</p>
+        <h2>Facilitate smooth, safe delivery</h2>
+        <p>
+          Provide a wide variety of logistics services for importers and exporters to facilitate the
+          smooth, safe, and efficient delivery of goods in any part of Africa, Asia, and Europe. Create
+          a working environment of mutual trust and respect. Help customers increase supply-chain value
+          by raising service levels, shortening transit times, and reducing cost.
+        </p>
+      </article>
+      <article class="reveal">
+        <p class="section-label">Vision</p>
+        <h2>Trusted beyond expectation</h2>
+        <p>
+          To be the most trusted service provider — delivering beyond expectation and nurturing
+          long-term, mutually beneficial relationships with partners and clients. Our aim is safe and
+          efficient delivery of your cargo across Africa, Asia, and Europe.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">Why choose us</p>
+        <h2 class="section-title">Practical advantages for every consignment</h2>
+      </div>
+      <ul class="chips reveal">
+        {whyUs.map((item) => <li>{item}</li>)}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .prose {
+    max-width: 70ch;
+  }
+
+  .mission {
+    background: rgba(255, 255, 255, 0.55);
+    border-block: 1px solid var(--line);
+  }
+
+  .mission-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .mission-grid h2 {
+    font-size: 1.7rem;
+  }
+
+  .mission-grid p:last-child {
+    color: var(--muted);
+  }
+
+  .chips {
+    list-style: none;
+    margin: 1.75rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .chips li {
+    padding: 0.75rem 1rem;
+    background: var(--white);
+    border: 1px solid var(--line);
+    font-weight: 600;
+  }
+
+  @media (max-width: 800px) {
+    .mission-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

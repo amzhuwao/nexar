@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { company } from '../../content/site';
+---
+
+<BaseLayout
+  title="International Car Shipping & RORO"
+  description="RoRo, LoLo, and container vehicle shipping with African port coverage."
+  image="/images/car.jpg"
+>
+  <Hero
+    compact
+    brand="RORO"
+    headline="Vehicle and heavy equipment shipping done right."
+    support="RoRo, LoLo, or container — door-to-door and port-to-port options for cars and machinery."
+    image="/images/car.jpg"
+    secondaryCta={{ label: 'Get a Quote', href: '/quote' }}
+  />
+
+  <section class="section">
+    <div class="container content reveal">
+      <p>
+        We help transport excess baggage, earth-moving equipment, generators, mining equipment, heavy
+        machinery, transport vehicles, boats and yachts on trailers or cradles, cranes, and plant
+        assemblies to your destination with precision.
+      </p>
+      <p>
+        When transporting a vehicle, there are three main alternatives: <strong>RoRo</strong>,
+        <strong>LoLo</strong>, or <strong>container</strong>.
+      </p>
+
+      <h2>RoRo (Roll-on / Roll-off)</h2>
+      <p>
+        Often the easiest and most cost-effective way to ship a vehicle overseas — minimal lifting and
+        no block-and-brace into a container. After the vehicle is driven onto the vessel, it is secured
+        on wind- and watertight decks. We provide door-to-door and port-to-port services for cargo that
+        can roll on and off, including oversized and heavy-lift cargo where suitable.
+      </p>
+
+      <h2>LoLo (Lift-on / Lift-off)</h2>
+      <p>
+        The vehicle is loaded and unloaded by crane. For static cargo that is not self-propelled, a
+        modular transporter such as a MAFI trailer can be used. LoLo is a strong choice for inoperable
+        large vehicles and equipment.
+      </p>
+
+      <h2>Container shipping</h2>
+      <p>
+        Containers are highly secure and tamper-resistant, offering greater protection from transit
+        damage — often preferred for high-value luxury cars in 20′ or 40′ ocean containers.
+      </p>
+
+      <h2>Ports we service include</h2>
+      <ul class="ports">
+        <li>Durban – South Africa</li>
+        <li>Walvis Bay – Namibia</li>
+        <li>Beira – Mozambique</li>
+        <li>Mombasa – Kenya</li>
+        <li>Dar es Salaam – Tanzania</li>
+        <li>Lagos – Nigeria</li>
+        <li>Abidjan – Ivory Coast</li>
+      </ul>
+
+      <h2>Typical documents for vehicle clearance</h2>
+      <ul>
+        <li>Original bill of lading</li>
+        <li>Original vehicle registration</li>
+        <li>Purchase invoice</li>
+        <li>Shipping invoice</li>
+        <li>Completed power of attorney (POA) form</li>
+      </ul>
+
+      <p>
+        For booking or queries, call
+        <a href={company.phone.mobileHref}>{company.phone.mobile}</a>
+        or email
+        <a href={company.emailHref}>{company.email}</a>.
+      </p>
+
+      <a class="btn btn-primary" href="/quote">Request a vehicle shipping quote</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.55rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    color: var(--muted);
+  }
+
+  .ports {
+    columns: 2;
+    gap: 2rem;
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+
+  a {
+    color: var(--brand-deep);
+    font-weight: 700;
+  }
+
+  @media (max-width: 600px) {
+    .ports {
+      columns: 1;
+    }
+  }
+</style>

@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { company } from '../content/site';
+---
+
+<BaseLayout
+  title="Contact Us"
+  description="Contact Nexar Shipping Solutions in Wegberg, Germany for freight advice and bookings."
+>
+  <Hero
+    compact
+    headline="Talk to the Nexar team."
+    support="We advise without obligation and create individual offers for your shipment."
+    image="/images/road.jpg"
+    primaryCta={{ label: 'Get a Quote', href: '/quote' }}
+    secondaryCta={{ label: 'Call mobile', href: company.phone.mobileHref }}
+  />
+
+  <section class="section">
+    <div class="container contact-grid">
+      <aside class="details reveal">
+        <p class="section-label">Office</p>
+        <h2>Wegberg, Germany</h2>
+        <p>
+          {company.address.street}<br />
+          {company.address.city}<br />
+          {company.address.country}
+        </p>
+        <dl>
+          <div>
+            <dt>Mobile</dt>
+            <dd><a href={company.phone.mobileHref}>{company.phone.mobile}</a></dd>
+          </div>
+          <div>
+            <dt>Telephone</dt>
+            <dd><a href={company.phone.telHref}>{company.phone.tel}</a></dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href={company.emailHref}>{company.email}</a></dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>{company.languages.join(', ')}</dd>
+          </div>
+        </dl>
+      </aside>
+      <div class="form-wrap reveal">
+        <ContactForm />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .details {
+    padding: 1.75rem;
+    background: #171e29;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  .details .section-label {
+    color: var(--brand);
+  }
+
+  .details h2 {
+    font-size: 1.8rem;
+  }
+
+  dl {
+    margin: 1.5rem 0 0;
+    display: grid;
+    gap: 1rem;
+  }
+
+  dt {
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  dd {
+    margin: 0.2rem 0 0;
+  }
+
+  .form-wrap {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid var(--line);
+    padding: 1.75rem;
+  }
+
+  @media (max-width: 860px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

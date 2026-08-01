@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+---
+
+<BaseLayout
+  title="Customs Clearance"
+  description="Import and export customs clearance across European and African markets with duty guidance."
+  image="/images/customs.jpg"
+>
+  <Hero
+    compact
+    brand="CLEAR"
+    headline="Hassle-free customs for complex consignments."
+    support="Guidance on classifications, duties, taxes, and documentation at key ports."
+    image="/images/customs.jpg"
+    secondaryCta={{ label: 'Get a Quote', href: '/quote' }}
+  />
+
+  <section class="section">
+    <div class="container content reveal">
+      <p>
+        Nexar Solutions undertakes customs clearance for packages; new or used motor vehicles; household
+        goods; personal effects; computers and electronics; food and non-food goods; palletised goods;
+        containerised cargo; out-of-gauge, heavy haulage, and project cargo.
+      </p>
+      <p>
+        We work with partners at entry ports of our African destinations so we can offer all-inclusive
+        service including port and customs clearance. Skilled staff can discuss tariff classifications,
+        potential duties and taxes, and tariff concessions.
+      </p>
+      <p>
+        We handle import and export clearances in various African ports and Europe. As a registered
+        Economic Operator with deep knowledge of EU and African customs procedures, we help cargo flow
+        smoothly and keep clients informed throughout clearance.
+      </p>
+
+      <h2>Customs services include</h2>
+      <ul>
+        <li>Customs formalities and procedures advice</li>
+        <li>Customs tax exemptions</li>
+        <li>Customs declaration and clearance</li>
+        <li>Duty charges, claims, and refunds</li>
+        <li>Clearance documentation</li>
+        <li>Border customs clearance and facilitation</li>
+      </ul>
+
+      <a class="btn btn-primary" href="/contact">Discuss customs formalities</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .content {
+    max-width: 72ch;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.55rem;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    color: var(--muted);
+  }
+
+  .btn {
+    margin-top: 1.5rem;
+  }
+</style>
